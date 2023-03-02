@@ -280,6 +280,7 @@ const config = {
           { from: '/en/get-started/sql-console/creating', to: '/en/get-started/sql-console' },
           { from: '/en/get-started/sql-console/advanced', to: '/en/get-started/sql-console' },
           { from: '/en/get-started/sql-console/visualizing', to: '/en/get-started/sql-console' },
+          { from: '/en/integrations', to: '/en/integrations/intro' },
           { from: '/en/connect-a-ui', to: '/en/integrations/data-visualization' },
           { from: '/en/development/browse_code', to: '/en/development/developer-instruction' },
           { from: '/en/development/browse-code', to: '/en/development/developer-instruction' },
