@@ -223,11 +223,11 @@ const config = {
         links: [
           {
             label: 'Trademark',
-            to: '/legal/trademark-policy/',
+            to: 'https://clickhouse.com/legal/trademark-policy',
           },
           {
             label: 'Privacy',
-            to: '/legal/privacy-policy',
+            to: 'https://clickhouse.com/legal/privacy-policy',
           },
           {
             label: 'Security',
@@ -235,10 +235,10 @@ const config = {
           },
           {
             label: 'Terms of Service',
-            to: '/legal/agreements/terms-of-service',
+            to: 'https://clickhouse.com/legal/agreements/terms-of-service',
           },
         ],
-        copyright: `© 2016-${new Date().getFullYear()} ClickHouse, Inc.`,
+        copyright: `© 2016&ndash;${new Date().getFullYear()} ClickHouse, Inc.`,
       },
       prism: {
         theme: darkTheme,
@@ -281,7 +281,6 @@ const config = {
           { from: '/en/get-started/sql-console/creating', to: '/en/get-started/sql-console' },
           { from: '/en/get-started/sql-console/advanced', to: '/en/get-started/sql-console' },
           { from: '/en/get-started/sql-console/visualizing', to: '/en/get-started/sql-console' },
-          { from: '/en/integrations', to: '/en/integrations/intro' },
           { from: '/en/connect-a-ui', to: '/en/integrations/data-visualization' },
           { from: '/en/development/browse_code', to: '/en/development/developer-instruction' },
           { from: '/en/development/browse-code', to: '/en/development/developer-instruction' },
