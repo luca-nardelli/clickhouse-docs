@@ -1,5 +1,5 @@
 {
-  "rewrites": [
-    { "source": "/docs/:path*", "destination": "/:path*" }
-  ]
+    "github": {
+        "silent": true
+    }
 }

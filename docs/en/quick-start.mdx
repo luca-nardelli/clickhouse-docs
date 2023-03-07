@@ -210,11 +210,33 @@ FROM file(
 
 View the [`file` table function](/en/sql-reference/table-functions/file) docs page for more details.
 
+### Install ClickHouse Client
+
+Install [ClickHouse](/docs/en/integrations/clickhouse-client-local.md).
+
+1. Run the command, substituting your hostname, username, and password:
+  ```bash
+  ./clickhouse client --host HOSTNAME.REGION.CSP.clickhouse.cloud \
+  --secure --port 9440 \
+  --user default \
+  --password <password>
+  ```
+  If you get the smiley face prompt, you are ready to run queries!
+  ```response
+  :)
+  ```
+
 </TabItem>
 <TabItem value="PostgreSQL" label="PostgreSQL">
 
-Use the [`postgresql` table function](/en/sql-reference/table-functions/postgresql) to read data from a table in PostgreSQL:
-
+Use the [`postgresql` table function](/en/sql-reference/table-functions/postgresql) to read data from a table in PostgreSQL. You can also connect to your ClickHouse server using a command-line tool named **clickhouse client**:
+  ```bash
+  ./clickhouse client
+  ```
+  If you get the smiley face prompt, you are ready to run queries!
+  ```response
+  :)
+  ```
 
 ```sql
 SELECT *
